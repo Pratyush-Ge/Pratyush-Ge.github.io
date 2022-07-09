@@ -1,0 +1,121 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/bg.jpg');
+}
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left img {
+    width: 140px;
+}
+
+.left div {
+    line-height: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 36%;
+    margin: 29px auto;
+    text-align: center;
+}
+
+.right {
+    position: absolute;
+    right: 35px;
+    top: 43px;
+    display: inline-block;
+
+}
+.form-group{
+    padding: 10px 10px;
+}
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(245, 63, 63);
+
+}
+.btn {
+    font-family: 'Crimson Text', serif;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(230, 16, 16);
+}
+
+.container img {
+    width: 515px;
+    height: 150px;
+}
+.container {
+    border: 3px solid rgb(241, 241, 241);
+    margin: 106px 80px;
+    padding: 45px;
+    width: 33%;
+    border-radius: 25px;
+}
+
+.form-group input {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    display: block;
+    width: 510px;
+    padding: 12px;
+    border: 1px solid rgb(232, 9, 9);
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+    text-align: center;
+}
+.rightbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 30px;
+    margin-right: 40px;
+
+}
